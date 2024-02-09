@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.xpr">
+<Project Version="7" Minor="61" Path="/home/nticms/testing/tef1002_te0820_fmcomms2/fmcomms2_tef1002.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="2a3efd54097c4c48a17723275d58ebdb"/>
@@ -46,7 +46,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../library"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../Development/TB_SDR/adi/hdl/library"/>
     <Option Name="IPOutputRepo" Val="/home/nticms/Development/TB_SDR/adi/hdl/ipcache"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
@@ -95,26 +95,14 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_cpu_interconnect_0/system_axi_cpu_interconnect_0.xci">
-          <Proxy FileSetName="system_axi_cpu_interconnect_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_adc_pack_0/system_util_ad9361_adc_pack_0.xci">
+          <Proxy FileSetName="system_util_ad9361_adc_pack_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_sysid_0_0/system_axi_sysid_0_0.xci">
-          <Proxy FileSetName="system_axi_sysid_0_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_dac_fifo_0/system_axi_ad9361_dac_fifo_0.xci">
+          <Proxy FileSetName="system_axi_ad9361_dac_fifo_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_rom_sys_0_0/system_rom_sys_0_0.xci">
-          <Proxy FileSetName="system_rom_sys_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_ps8_0/system_sys_ps8_0.xci">
-          <Proxy FileSetName="system_sys_ps8_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_0/system_axi_ad9361_0.xci">
-          <Proxy FileSetName="system_axi_ad9361_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_tdd_sync_0/system_util_ad9361_tdd_sync_0.xci">
-          <Proxy FileSetName="system_util_ad9361_tdd_sync_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_divclk_sel_0/system_util_ad9361_divclk_sel_0.xci">
-          <Proxy FileSetName="system_util_ad9361_divclk_sel_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_adc_dma_0/system_axi_ad9361_adc_dma_0.xci">
+          <Proxy FileSetName="system_axi_ad9361_adc_dma_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_divclk_0/system_util_ad9361_divclk_0.xci">
           <Proxy FileSetName="system_util_ad9361_divclk_0"/>
@@ -125,17 +113,23 @@
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_adc_fifo_0/system_util_ad9361_adc_fifo_0.xci">
           <Proxy FileSetName="system_util_ad9361_adc_fifo_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_adc_pack_0/system_util_ad9361_adc_pack_0.xci">
-          <Proxy FileSetName="system_util_ad9361_adc_pack_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_divclk_sel_0/system_util_ad9361_divclk_sel_0.xci">
+          <Proxy FileSetName="system_util_ad9361_divclk_sel_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_adc_dma_0/system_axi_ad9361_adc_dma_0.xci">
-          <Proxy FileSetName="system_axi_ad9361_adc_dma_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_tdd_sync_0/system_util_ad9361_tdd_sync_0.xci">
+          <Proxy FileSetName="system_util_ad9361_tdd_sync_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_dac_fifo_0/system_axi_ad9361_dac_fifo_0.xci">
-          <Proxy FileSetName="system_axi_ad9361_dac_fifo_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_0/system_axi_ad9361_0.xci">
+          <Proxy FileSetName="system_axi_ad9361_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_dac_upack_0/system_util_ad9361_dac_upack_0.xci">
-          <Proxy FileSetName="system_util_ad9361_dac_upack_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_cpu_interconnect_0/system_axi_cpu_interconnect_0.xci">
+          <Proxy FileSetName="system_axi_cpu_interconnect_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_rom_sys_0_0/system_rom_sys_0_0.xci">
+          <Proxy FileSetName="system_rom_sys_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_sysid_0_0/system_axi_sysid_0_0.xci">
+          <Proxy FileSetName="system_axi_sysid_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_500m_rstgen_0/system_sys_500m_rstgen_0.xci">
           <Proxy FileSetName="system_sys_500m_rstgen_0"/>
@@ -146,14 +140,20 @@
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_rstgen_0/system_sys_rstgen_0.xci">
           <Proxy FileSetName="system_sys_rstgen_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hp2_interconnect_0/system_axi_hp2_interconnect_0.xci">
-          <Proxy FileSetName="system_axi_hp2_interconnect_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_sys_ps8_0/system_sys_ps8_0.xci">
+          <Proxy FileSetName="system_sys_ps8_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_util_ad9361_dac_upack_0/system_util_ad9361_dac_upack_0.xci">
+          <Proxy FileSetName="system_util_ad9361_dac_upack_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_dac_dma_0/system_axi_ad9361_dac_dma_0.xci">
+          <Proxy FileSetName="system_axi_ad9361_dac_dma_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hp1_interconnect_0/system_axi_hp1_interconnect_0.xci">
           <Proxy FileSetName="system_axi_hp1_interconnect_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_ad9361_dac_dma_0/system_axi_ad9361_dac_dma_0.xci">
-          <Proxy FileSetName="system_axi_ad9361_dac_dma_0"/>
+        <CompFileExtendedInfo CompFileName="system.bd" FileRelPathName="ip/system_axi_hp2_interconnect_0/system_axi_hp2_interconnect_0.xci">
+          <Proxy FileSetName="system_axi_hp2_interconnect_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/imports/hdl/system_wrapper.v">
@@ -165,16 +165,20 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/system_top.v">
+      <File Path="$PSRCDIR/sources_1/imports/nticms/testing/tef1002_te0820_fmcomms2/system_top.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/system_top.v"/>
+          <Attr Name="ImportTime" Val="1707482856"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../library/common/ad_iobuf.v">
+      <File Path="$PSRCDIR/sources_1/imports/nticms/Development/TB_SDR/adi/hdl/library/common/ad_iobuf.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Development/TB_SDR/adi/hdl/library/common/ad_iobuf.v"/>
+          <Attr Name="ImportTime" Val="1706637961"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -187,14 +191,18 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/system_constr.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/nticms/testing/tef1002_te0820_fmcomms2/system_constr.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/system_constr.xdc"/>
+          <Attr Name="ImportTime" Val="1707482856"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../common/tef1002/tef1002_system_constr.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/nticms/Development/TB_SDR/adi/hdl/projects/common/tef1002/tef1002_system_constr.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Development/TB_SDR/adi/hdl/projects/common/tef1002/tef1002_system_constr.xdc"/>
+          <Attr Name="ImportTime" Val="1707146023"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -204,8 +212,11 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="system_top"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
@@ -368,9 +379,7 @@
   <Runs Version="1" Minor="19">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xczu4cg-sfvc784-1-i" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="true" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -380,9 +389,7 @@
     </Run>
     <Run Id="system_sys_ps8_0_synth_1" Type="Ft3:Synth" SrcSet="system_sys_ps8_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_ps8_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_sys_ps8_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_ps8_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_ps8_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -392,9 +399,7 @@
     </Run>
     <Run Id="system_sys_rstgen_0_synth_1" Type="Ft3:Synth" SrcSet="system_sys_rstgen_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_rstgen_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_sys_rstgen_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_rstgen_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_rstgen_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -404,9 +409,7 @@
     </Run>
     <Run Id="system_sys_250m_rstgen_0_synth_1" Type="Ft3:Synth" SrcSet="system_sys_250m_rstgen_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_250m_rstgen_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_sys_250m_rstgen_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_250m_rstgen_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_250m_rstgen_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -416,9 +419,7 @@
     </Run>
     <Run Id="system_sys_500m_rstgen_0_synth_1" Type="Ft3:Synth" SrcSet="system_sys_500m_rstgen_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_500m_rstgen_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_sys_500m_rstgen_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_500m_rstgen_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_500m_rstgen_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -428,9 +429,7 @@
     </Run>
     <Run Id="system_axi_sysid_0_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_sysid_0_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_sysid_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_sysid_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_sysid_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_sysid_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -440,9 +439,7 @@
     </Run>
     <Run Id="system_rom_sys_0_0_synth_1" Type="Ft3:Synth" SrcSet="system_rom_sys_0_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_rom_sys_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_rom_sys_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_rom_sys_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_rom_sys_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -452,9 +449,7 @@
     </Run>
     <Run Id="system_axi_cpu_interconnect_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_cpu_interconnect_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_cpu_interconnect_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_cpu_interconnect_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_cpu_interconnect_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_cpu_interconnect_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -464,9 +459,7 @@
     </Run>
     <Run Id="system_axi_ad9361_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_ad9361_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_ad9361_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -476,9 +469,7 @@
     </Run>
     <Run Id="system_util_ad9361_tdd_sync_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_tdd_sync_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_tdd_sync_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_tdd_sync_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_tdd_sync_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_tdd_sync_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -488,9 +479,7 @@
     </Run>
     <Run Id="system_util_ad9361_divclk_sel_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_divclk_sel_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_divclk_sel_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_divclk_sel_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_sel_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_sel_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -500,9 +489,7 @@
     </Run>
     <Run Id="system_util_ad9361_divclk_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_divclk_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_divclk_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_divclk_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -512,9 +499,7 @@
     </Run>
     <Run Id="system_util_ad9361_divclk_reset_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_divclk_reset_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_divclk_reset_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_divclk_reset_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_reset_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_reset_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -524,9 +509,7 @@
     </Run>
     <Run Id="system_util_ad9361_adc_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_adc_fifo_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_adc_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_adc_fifo_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_fifo_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_fifo_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -536,9 +519,7 @@
     </Run>
     <Run Id="system_util_ad9361_adc_pack_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_adc_pack_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_adc_pack_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_adc_pack_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_pack_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_pack_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -548,9 +529,7 @@
     </Run>
     <Run Id="system_axi_ad9361_adc_dma_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_ad9361_adc_dma_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_adc_dma_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_ad9361_adc_dma_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_adc_dma_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_adc_dma_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -560,9 +539,7 @@
     </Run>
     <Run Id="system_axi_ad9361_dac_fifo_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_ad9361_dac_fifo_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_dac_fifo_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_ad9361_dac_fifo_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_fifo_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_fifo_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -572,9 +549,7 @@
     </Run>
     <Run Id="system_util_ad9361_dac_upack_0_synth_1" Type="Ft3:Synth" SrcSet="system_util_ad9361_dac_upack_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_dac_upack_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_util_ad9361_dac_upack_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_dac_upack_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_dac_upack_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -584,9 +559,7 @@
     </Run>
     <Run Id="system_axi_ad9361_dac_dma_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_ad9361_dac_dma_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_dac_dma_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_ad9361_dac_dma_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_dma_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_dma_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -596,9 +569,7 @@
     </Run>
     <Run Id="system_axi_hp1_interconnect_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_hp1_interconnect_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_hp1_interconnect_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_hp1_interconnect_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_hp1_interconnect_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_hp1_interconnect_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -608,9 +579,7 @@
     </Run>
     <Run Id="system_axi_hp2_interconnect_0_synth_1" Type="Ft3:Synth" SrcSet="system_axi_hp2_interconnect_0" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_hp2_interconnect_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/system_axi_hp2_interconnect_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_hp2_interconnect_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_hp2_interconnect_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -620,9 +589,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -639,9 +606,7 @@
     </Run>
     <Run Id="system_sys_ps8_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_ps8_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_sys_ps8_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_ps8_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_ps8_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -658,9 +623,7 @@
     </Run>
     <Run Id="system_sys_rstgen_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_rstgen_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_sys_rstgen_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_rstgen_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_rstgen_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -677,9 +640,7 @@
     </Run>
     <Run Id="system_sys_250m_rstgen_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_250m_rstgen_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_sys_250m_rstgen_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_250m_rstgen_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_250m_rstgen_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -696,9 +657,7 @@
     </Run>
     <Run Id="system_sys_500m_rstgen_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_sys_500m_rstgen_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_sys_500m_rstgen_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_sys_500m_rstgen_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_sys_500m_rstgen_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -715,9 +674,7 @@
     </Run>
     <Run Id="system_axi_sysid_0_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_sysid_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_sysid_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_sysid_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_sysid_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -734,9 +691,7 @@
     </Run>
     <Run Id="system_rom_sys_0_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_rom_sys_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_rom_sys_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_rom_sys_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_rom_sys_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -753,9 +708,7 @@
     </Run>
     <Run Id="system_axi_cpu_interconnect_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_cpu_interconnect_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_cpu_interconnect_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_cpu_interconnect_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_cpu_interconnect_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -772,9 +725,7 @@
     </Run>
     <Run Id="system_axi_ad9361_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_ad9361_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -791,9 +742,7 @@
     </Run>
     <Run Id="system_util_ad9361_tdd_sync_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_tdd_sync_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_tdd_sync_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_tdd_sync_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_tdd_sync_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -810,9 +759,7 @@
     </Run>
     <Run Id="system_util_ad9361_divclk_sel_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_divclk_sel_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_divclk_sel_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_sel_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_sel_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -829,9 +776,7 @@
     </Run>
     <Run Id="system_util_ad9361_divclk_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_divclk_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_divclk_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -848,9 +793,7 @@
     </Run>
     <Run Id="system_util_ad9361_divclk_reset_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_divclk_reset_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_divclk_reset_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_reset_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_divclk_reset_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -867,9 +810,7 @@
     </Run>
     <Run Id="system_util_ad9361_adc_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_adc_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_adc_fifo_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_fifo_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_fifo_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -886,9 +827,7 @@
     </Run>
     <Run Id="system_util_ad9361_adc_pack_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_adc_pack_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_adc_pack_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_pack_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_adc_pack_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -905,9 +844,7 @@
     </Run>
     <Run Id="system_axi_ad9361_adc_dma_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_adc_dma_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_ad9361_adc_dma_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_adc_dma_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_adc_dma_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -924,9 +861,7 @@
     </Run>
     <Run Id="system_axi_ad9361_dac_fifo_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_dac_fifo_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_ad9361_dac_fifo_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_fifo_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_fifo_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -943,9 +878,7 @@
     </Run>
     <Run Id="system_util_ad9361_dac_upack_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_util_ad9361_dac_upack_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_util_ad9361_dac_upack_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_util_ad9361_dac_upack_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_util_ad9361_dac_upack_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -962,9 +895,7 @@
     </Run>
     <Run Id="system_axi_ad9361_dac_dma_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_ad9361_dac_dma_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_ad9361_dac_dma_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_dma_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_ad9361_dac_dma_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -981,9 +912,7 @@
     </Run>
     <Run Id="system_axi_hp1_interconnect_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_hp1_interconnect_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_hp1_interconnect_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_hp1_interconnect_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_hp1_interconnect_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -1000,9 +929,7 @@
     </Run>
     <Run Id="system_axi_hp2_interconnect_0_impl_1" Type="Ft2:EntireDesign" Part="xczu4cg-sfvc784-1-i" ConstrsSet="system_axi_hp2_interconnect_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="system_axi_hp2_interconnect_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/system_axi_hp2_interconnect_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/system_axi_hp2_interconnect_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
