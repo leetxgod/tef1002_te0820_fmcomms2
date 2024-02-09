@@ -1,0 +1,64 @@
+
+*** Running vivado
+    with args -log system_axi_ad9361_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_ad9361_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source system_axi_ad9361_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nticms/Development/TB_SDR/adi/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/nticms/Tools/XIL2022/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_ad9361_0
+Command: synth_design -top system_axi_ad9361_0 -part xczu4cg-sfvc784-1-i -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu4cg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu4cg'
+INFO: [Device 21-403] Loading part xczu4cg-sfvc784-1-i
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 242505
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/nticms/Tools/XIL2022/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'dac_sync', assumed default net type 'wire' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/aed9/axi_ad9361_tx.v:380]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2452.270 ; gain = 233.832 ; free physical = 13831 ; free virtual = 19263
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1749.891; parent = 1593.357; children = 156.533
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3430.012; parent = 2460.211; children = 969.801
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_axi_ad9361_0' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ip/system_axi_ad9361_0/synth/system_axi_ad9361_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_ad9361' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/aed9/axi_ad9361.v:38]
+INFO: [Synth 8-6157] synthesizing module 'axi_ad9361_lvds_if' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/aed9/xilinx/axi_ad9361_lvds_if.v:38]
+INFO: [Synth 8-6157] synthesizing module 'ad_data_in' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/xilinx/common/ad_data_in.v:38]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_DIFF_OUT' [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71400]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_DIFF_OUT' (0#1) [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71400]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE3' [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:73531]
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE3' (0#1) [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:73531]
+INFO: [Synth 8-6157] synthesizing module 'IDDRE1' [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:73362]
+INFO: [Synth 8-6155] done synthesizing module 'IDDRE1' (0#1) [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:73362]
+INFO: [Synth 8-6155] done synthesizing module 'ad_data_in' (0#1) [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/xilinx/common/ad_data_in.v:38]
+INFO: [Synth 8-6157] synthesizing module 'ad_data_in__parameterized0' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/xilinx/common/ad_data_in.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'ad_data_in__parameterized0' (0#1) [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/xilinx/common/ad_data_in.v:38]
+INFO: [Synth 8-6157] synthesizing module 'ad_data_out' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/xilinx/common/ad_data_out.v:38]
+INFO: [Synth 8-6157] synthesizing module 'ODDRE1' [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94319]
+INFO: [Synth 8-6155] done synthesizing module 'ODDRE1' (0#1) [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94319]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [/home/nticms/Tools/XIL2022/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
+INFO: [Synth 8-6155] done synthesizing module 'ad_data_out' (0#1) [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/xilinx/common/ad_data_out.v:38]
+ERROR: [Synth 8-439] module 'ad_data_clk' not found [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/aed9/xilinx/axi_ad9361_lvds_if.v:636]
+ERROR: [Synth 8-6156] failed synthesizing module 'axi_ad9361_lvds_if' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/aed9/xilinx/axi_ad9361_lvds_if.v:38]
+ERROR: [Synth 8-6156] failed synthesizing module 'axi_ad9361' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ipshared/aed9/axi_ad9361.v:38]
+ERROR: [Synth 8-6156] failed synthesizing module 'system_axi_ad9361_0' [/home/nticms/Development/TB_SDR/adi/hdl/projects/fmcomms2/tef1002/fmcomms2_tef1002.gen/sources_1/bd/system/ip/system_axi_ad9361_0/synth/system_axi_ad9361_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2532.176 ; gain = 313.738 ; free physical = 13368 ; free virtual = 18800
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1826.996; parent = 1676.211; children = 156.533
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3501.980; parent = 2532.180; children = 969.801
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  8 13:19:23 2024...

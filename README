@@ -1,0 +1,3 @@
+TEF1002 + TE0820 FMCOMMS2
+
+TEF1002 constraints file is "tef1002_sys_constr.xdc.nu" but its linked on another folder, but it's contents are the same.
